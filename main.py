@@ -1,5 +1,5 @@
 # news-image-20261123 v2 — one-page newspaper of Monday 23 November 2026.
-# Pure Python 3.13 standard library only: no Pillow, no network, no random,
+# Pure Python 3.13 standard library only: no imaging libraries, no network, no random,
 # no clock. The image is drawn pixel by pixel and written as a PNG by a
 # hand-rolled encoder (struct + zlib). Two runs write identical bytes.
 

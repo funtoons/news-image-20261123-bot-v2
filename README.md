@@ -34,7 +34,7 @@ reported on 23 November 2026 in at least one time zone.
 
 ## How it works
 
-`main.py` is pure Python 3.13 standard library — no Pillow, no network, no
+`main.py` is pure Python 3.13 standard library — no imaging libraries, no network, no
 randomness, no clock. It draws the newspaper pixel by pixel (a hand-written
 5x7 font, vector shapes) and writes the PNG with a hand-rolled encoder
 (`struct` + `zlib`). Two runs write byte-identical output.
